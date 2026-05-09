@@ -10,9 +10,9 @@
         "theme",
         "template"
     ],
-    "homepage": "https://startbootstrap.com/theme/coming-soon",
+    "homepage": "https://github.com/rbanda1985/saltara-coming-soon.git",
     "bugs": {
-        "url": "https://github.com/StartBootstrap/startbootstrap-coming-soon/issues",
+        "url": "git+https://github.com/rbanda1985/saltara-coming-soon.git/issues",
         "email": "feedback@startbootstrap.com"
     },
     "repository": {
