@@ -1,17 +1,6 @@
 {
-    "title": "Coming Soon",
     "name": "startbootstrap-coming-soon",
     "version": "6.0.7",
-    "scripts": {
-        "build": "npm run clean && npm run build:pug && npm run build:scss && npm run build:scripts && npm run build:assets",
-        "build:assets": "node scripts/build-assets.js",
-        "build:pug": "node scripts/build-pug.js",
-        "build:scripts": "node scripts/build-scripts.js",
-        "build:scss": "node scripts/build-scss.js",
-        "clean": "node scripts/clean.js",
-        "start": "npm run build && node scripts/start.js",
-        "start:debug": "npm run build && node scripts/start-debug.js"
-    },
     "description": "Coming Soon is a Bootstrap 4 coming soon page theme.",
     "keywords": [
         "css",
@@ -26,14 +15,29 @@
         "url": "https://github.com/StartBootstrap/startbootstrap-coming-soon/issues",
         "email": "feedback@startbootstrap.com"
     },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/rbanda1985/saltara-coming-soon.git"
+    },
     "license": "MIT",
     "author": "Start Bootstrap",
     "contributors": [
-        "David Miller (https://davidmiller.io/)"
+        {
+            "name": "David Miller",
+            "url": "https://davidmiller.io/"
+        }
     ],
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/StartBootstrap/startbootstrap-coming-soon.git"
+    "type": "commonjs",
+    "main": "index.js",
+    "scripts": {
+        "build": "npm run clean && npm run build:pug && npm run build:scss && npm run build:scripts && npm run build:assets",
+        "build:assets": "node scripts/build-assets.js",
+        "build:pug": "node scripts/build-pug.js",
+        "build:scripts": "node scripts/build-scripts.js",
+        "build:scss": "node scripts/build-scss.js",
+        "clean": "node scripts/clean.js",
+        "start": "npm run build && node scripts/start.js",
+        "start:debug": "npm run build && node scripts/start-debug.js"
     },
     "dependencies": {
         "bootstrap": "5.2.3"
@@ -47,7 +51,8 @@
         "prettier": "2.8.6",
         "pug": "3.0.2",
         "sass": "1.60.0",
-        "shelljs": "0.8.5",
+        "shelljs": "^0.8.5",
         "upath": "2.0.1"
-    }
+    },
+    "title": "Coming Soon"
 }
